@@ -1,10 +1,10 @@
 h1 {
   color:darkblue;
+  text-align: center;
 }
 body {
   background-color:lightblue;
   border-style: solid;
   border-color: darkblue;
   border-width: 20px;
-  text-align: center;
-}
+  }

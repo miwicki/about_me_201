@@ -1,4 +1,5 @@
 'use strict';
+//These are my first five questions, all of which are yes/no answers
 
 var userName = prompt('Thanks for taking a look at my About Me page! What is your name?');
 alert('Hi, ' + userName + ', nice to meet you! See if you can guess right on these questions about me!! For each question, please answer with a \'yes\' or \'no\'!');
@@ -48,3 +49,44 @@ if (myFood === 'yes' || myFood === 'y'){
   alert('Sorry, I could probably eat pizza every day too, but sushi is just too good');
 }
 console.log(userName + ' answered ' + myFood + ' to whether Matt\'s favorite food is sushi');
+
+
+// This is my 6th question, which gives 4 guesses to guess a numerical answer
+
+for (i = 0; i < 4;i++){
+
+  var myWrestling = parseInt(prompt('Can you guess how many matches I lost during my high school senior year wrestling season? You have 4 tries to guess it right!'));
+
+  if (myWrestling < 0){
+    alert('You are too low, try again!');
+
+  } if (myWrestling === 0){
+    alert('You are correct! I went undefeated in my senior year season, eventually earning my second State Championship title to cap off my best season ever!');
+    break;
+
+  } if (myWrestling > 0){
+    alert('You are guessing too high, try another guess!');
+
+  } if (i >= 3) {
+    alert('You are out of guesses, the correct answer was zero! I went undefeated in my senior year season, eventually earning my second State Championship title to cap off my best season ever!');
+    break;
+  }
+}
+
+
+//This is question 7, which involves an array of multiple correct answers, with only 6 tries
+
+var counter = 0;
+
+var myCountries = ['mexico', 'canada', 'aruba', 'france'];
+var countryQuestion = prompt('What is one country I\'ve been to outside of the USA? You have 6 tries to guess one right!').toLowerCase();
+
+if(countryQuestion === 'mexico' || 'canada' || 'aruba' || 'france'){
+  alert('Nice work!');
+}
+else {
+  alert('Try again!');
+}
+if (counter >= 6) {
+  alert('Sorry, you are out of tries, I have been to Mexico, Canada, Aruba, and France!');
+}

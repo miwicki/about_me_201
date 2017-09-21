@@ -1,5 +1,6 @@
 'use strict';
-//These are my first five questions, all of which are yes/no answers
+
+// These are my first five questions, all of which are yes/no answers
 
 var userName = prompt('Thanks for taking a look at my About Me page! What is your name?');
 alert('Hi, ' + userName + ', nice to meet you! See if you can guess right on these questions about me!! For each question, please answer with a \'yes\' or \'no\'!');
@@ -74,7 +75,7 @@ for (i = 0; i < 4;i++){
 }
 
 
-//This is question 7, which involves an array of multiple correct answers, with only 6 tries
+// This is question 7, which involves an array of multiple correct answers, with only 6 tries
 
 var counter = 0;
 

@@ -1,5 +1,6 @@
 'use strict';
-//These are my first five questions, all of which are yes/no answers
+
+// These are my first five questions, all of which are yes/no answers
 
 function userName() {
   var userName = prompt('Thanks for taking a look at my About Me page! What is your name?');
@@ -90,8 +91,12 @@ function question6() {
 
 // This is question 7, which involves an array of multiple correct answers, with only 6 tries
 
+
 function question7() {
   var counter = 0;
+
+// This is question 7, which involves an array of multiple correct answers, with only 6 tries
+
 
 
   // var myCountries = ['mexico', 'canada', 'aruba', 'france'];

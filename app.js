@@ -95,7 +95,7 @@ function question6() {
 function question7() {
   var counter = 0;
 
-// This is question 7, which involves an array of multiple correct answers, with only 6 tries
+  // This is question 7, which involves an array of multiple correct answers, with only 6 tries
 
 
 

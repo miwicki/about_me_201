@@ -1,9 +1,41 @@
+
+
 h1 {
+  font-size: 50px;
+  color:darkblue;
+  text-align: center;
+  border-bottom-style: double;
+  border-color: darkblue;
+  border-width: 10px;
+}
+
+h4 {
+  font-size: 30px;
+  text-decoration: underline;
   color:darkblue;
   text-align: center;
 }
+
+ul {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 5px;
+    }
+
+li {
+  margin: 1em 0;
+}
+
+
+ol {
+  font-size: 30px;
+  font-family: cursive;
+  font-style: italic;
+  text-align: center;
+}
+
 body {
-  background-color:lightblue;
+  background: linear-gradient(to bottom, #99ccff, #3399ff);
   border-style: solid;
   border-color: darkblue;
   border-width: 20px;

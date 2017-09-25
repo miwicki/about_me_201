@@ -13,7 +13,7 @@ function question1() {
   var myNationality = prompt('Am I of mostly Polish descent?').toLowerCase();
 
   if (myNationality === 'yes' || myNationality === 'y'){
-    alert('You are correct!! I am mostly Polish, with some Russian, English, and French thrown in too');
+    alert('You are correct!! I am mostly Polish, with some Russian, English, and French thrown in too.');
   } else {
     alert('Sorry, you are incorrect, I in fact descend from Poles');
   }
@@ -21,12 +21,12 @@ function question1() {
 }
 
 function question2() {
-  var myBirthplace = prompt('Was I born in Washnington state?').toLowerCase();
+  var myBirthplace = prompt('Was I born in Washington state?').toLowerCase();
 
   if (myBirthplace === 'no' || myBirthplace === 'n'){
     alert('Nice job!! I was born in Roanoke, Virginia');
   } else {
-    alert('Sorry, I actually moved to Washington when I was 5! I was born in Virginia');
+    alert('Sorry, I actually moved to Washington when I was 5! I was born in Virginia.');
   }
   console.log(userName + ' answered ' + myBirthplace + ' to whether Matt was born in WA');
 }
